@@ -22,8 +22,7 @@
         <ComboBox x:Name="CategoryComboBox"
                   ItemsSource="{Binding Categories, RelativeSource={RelativeSource AncestorType=Window}}"
                   SelectedItem="{Binding Category, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"
-                  Grid.Row="1" Grid.Column="1" Margin="5" Width="26
-                  0" />
+                  Grid.Row="1" Grid.Column="1" Margin="5" Width="260" />
 
         <TextBlock Text="Кількість:" Grid.Row="2" Grid.Column="0" Margin="5"/>
         <TextBox x:Name="QuantityTextBox" Text="{Binding Quantity, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" Grid.Row="2" Grid.Column="1" Margin="5"/>

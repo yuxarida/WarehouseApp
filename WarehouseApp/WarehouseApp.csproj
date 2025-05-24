@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="ClassDiag.cd" />
     <None Remove="WarehouseIcon.png" />
   </ItemGroup>
 
